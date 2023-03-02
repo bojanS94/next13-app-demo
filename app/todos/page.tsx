@@ -4,7 +4,7 @@ import TodosList from "./TodosList";
 function Todos() {
   return (
     <div>
-     <h1>Listed todos...</h1>
+      <h1>Listed todos...</h1>
     </div>
   );
 }

@@ -9,9 +9,15 @@ function Header() {
       </Link>
       <Link
         href="/todos"
-        className="px-2 py-1 bg-white text-blue-500 rounded-lg"
+        className="ml-1 px-2 py-1 bg-white text-blue-500 rounded-lg"
       >
         Todos
+      </Link>
+      <Link
+        href="/search"
+        className="ml-1 px-2 py-1 bg-white text-blue-500 rounded-lg"
+      >
+        Search
       </Link>
     </div>
   );
