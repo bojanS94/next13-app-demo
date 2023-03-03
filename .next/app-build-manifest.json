@@ -1,64 +1,64 @@
 {
   "pages": {
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/layout.js"
-    ],
-    "/todos/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/todos/layout.js"
-    ],
-    "/todos/[todoId]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/todos/[todoId]/page.js"
-    ],
-    "/todos/[todoId]/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/todos/[todoId]/not-found.js"
-    ],
-    "/todos/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/todos/page.js"
-    ],
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/search/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/search/page.js"
+      "static/chunks/app/layout.js"
     ],
-    "/search/layout": [
+    "/(users)/search/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/search/layout.js"
+      "static/chunks/app/(users)/search/page.js"
     ],
-    "/search/[searchTerm]/page": [
+    "/(users)/search/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/search/[searchTerm]/page.js"
+      "static/chunks/app/(users)/search/layout.js"
     ],
-    "/search/[searchTerm]/loading": [
+    "/(users)/search/head": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/search/[searchTerm]/loading.js"
+      "static/chunks/app/(users)/search/head.js"
     ],
-    "/search/[searchTerm]/error": [
+    "/(users)/todos/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/search/[searchTerm]/error.js"
+      "static/chunks/app/(users)/todos/page.js"
     ],
-    "/search/head": [
+    "/(users)/todos/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/search/head.js"
+      "static/chunks/app/(users)/todos/layout.js"
+    ],
+    "/(users)/todos/[todoId]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(users)/todos/[todoId]/page.js"
+    ],
+    "/(users)/todos/[todoId]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(users)/todos/[todoId]/not-found.js"
+    ],
+    "/(users)/search/[searchTerm]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(users)/search/[searchTerm]/page.js"
+    ],
+    "/(users)/search/[searchTerm]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(users)/search/[searchTerm]/error.js"
+    ],
+    "/(users)/search/[searchTerm]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(users)/search/[searchTerm]/loading.js"
     ]
   }
 }

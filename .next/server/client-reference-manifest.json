@@ -109,7 +109,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/todos/layout:app/todos/layout"
+          "app/(users)/todos/layout:app/(users)/todos/layout"
         ],
         "async": false
       },
@@ -117,7 +117,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/todos/layout:app/todos/layout"
+          "app/(users)/todos/layout:app/(users)/todos/layout"
         ],
         "async": false
       },
@@ -125,7 +125,33 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/todos/layout:app/todos/layout"
+          "app/(users)/todos/layout:app/(users)/todos/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/(users)/search/Search.tsx": {
+      "": {
+        "id": "(sc_client)/./app/(users)/search/Search.tsx",
+        "name": "",
+        "chunks": [
+          "app/(users)/search/layout:app/(users)/search/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/(users)/search/Search.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(users)/search/layout:app/(users)/search/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/(users)/search/Search.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(users)/search/layout:app/(users)/search/layout"
         ],
         "async": false
       }
@@ -135,7 +161,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "",
         "chunks": [
-          "app/todos/[todoId]/page:app/todos/[todoId]/page"
+          "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
         ],
         "async": false
       },
@@ -143,7 +169,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [
-          "app/todos/[todoId]/page:app/todos/[todoId]/page"
+          "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
         ],
         "async": false
       },
@@ -151,7 +177,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "NoSSR",
         "chunks": [
-          "app/todos/[todoId]/page:app/todos/[todoId]/page"
+          "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
         ],
         "async": false
       },
@@ -159,7 +185,7 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "__esModule",
         "chunks": [
-          "app/todos/[todoId]/page:app/todos/[todoId]/page"
+          "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
         ],
         "async": false
       },
@@ -167,59 +193,33 @@
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "suspense",
         "chunks": [
-          "app/todos/[todoId]/page:app/todos/[todoId]/page"
+          "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
         ],
         "async": false
       }
     },
-    "(app-client)/./app/search/Search.tsx": {
+    "(app-client)/./app/(users)/search/[searchTerm]/error.tsx": {
       "": {
-        "id": "(sc_client)/./app/search/Search.tsx",
+        "id": "(sc_client)/./app/(users)/search/[searchTerm]/error.tsx",
         "name": "",
         "chunks": [
-          "app/search/layout:app/search/layout"
+          "app/(users)/search/[searchTerm]/error:app/(users)/search/[searchTerm]/error"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./app/search/Search.tsx",
+        "id": "(sc_client)/./app/(users)/search/[searchTerm]/error.tsx",
         "name": "*",
         "chunks": [
-          "app/search/layout:app/search/layout"
+          "app/(users)/search/[searchTerm]/error:app/(users)/search/[searchTerm]/error"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/search/Search.tsx",
+        "id": "(sc_client)/./app/(users)/search/[searchTerm]/error.tsx",
         "name": "default",
         "chunks": [
-          "app/search/layout:app/search/layout"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/search/[searchTerm]/error.tsx": {
-      "": {
-        "id": "(sc_client)/./app/search/[searchTerm]/error.tsx",
-        "name": "",
-        "chunks": [
-          "app/search/[searchTerm]/error:app/search/[searchTerm]/error"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./app/search/[searchTerm]/error.tsx",
-        "name": "*",
-        "chunks": [
-          "app/search/[searchTerm]/error:app/search/[searchTerm]/error"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/search/[searchTerm]/error.tsx",
-        "name": "default",
-        "chunks": [
-          "app/search/[searchTerm]/error:app/search/[searchTerm]/error"
+          "app/(users)/search/[searchTerm]/error:app/(users)/search/[searchTerm]/error"
         ],
         "async": false
       }
@@ -785,7 +785,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/todos/layout:app/todos/layout"
+        "app/(users)/todos/layout:app/(users)/todos/layout"
       ],
       "async": false
     },
@@ -793,7 +793,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/todos/layout:app/todos/layout"
+        "app/(users)/todos/layout:app/(users)/todos/layout"
       ],
       "async": false
     },
@@ -801,7 +801,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/todos/layout:app/todos/layout"
+        "app/(users)/todos/layout:app/(users)/todos/layout"
       ],
       "async": false
     }
@@ -811,7 +811,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/todos/layout:app/todos/layout"
+        "app/(users)/todos/layout:app/(users)/todos/layout"
       ],
       "async": false
     },
@@ -819,7 +819,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/todos/layout:app/todos/layout"
+        "app/(users)/todos/layout:app/(users)/todos/layout"
       ],
       "async": false
     },
@@ -827,7 +827,33 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/todos/layout:app/todos/layout"
+        "app/(users)/todos/layout:app/(users)/todos/layout"
+      ],
+      "async": false
+    }
+  },
+  "C:\\Users\\BojanS\\Desktop\\Next-JS projects\\next13-demo-app\\app\\(users)\\search\\Search.tsx": {
+    "": {
+      "id": "(app-client)/./app/(users)/search/Search.tsx",
+      "name": "",
+      "chunks": [
+        "app/(users)/search/layout:app/(users)/search/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/(users)/search/Search.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(users)/search/layout:app/(users)/search/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/(users)/search/Search.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(users)/search/layout:app/(users)/search/layout"
       ],
       "async": false
     }
@@ -837,7 +863,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -845,7 +871,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -853,7 +879,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -861,7 +887,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "__esModule",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -869,7 +895,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     }
@@ -879,7 +905,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -887,7 +913,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -895,7 +921,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -903,7 +929,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "__esModule",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     },
@@ -911,59 +937,33 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/todos/[todoId]/page:app/todos/[todoId]/page"
+        "app/(users)/todos/[todoId]/page:app/(users)/todos/[todoId]/page"
       ],
       "async": false
     }
   },
-  "C:\\Users\\BojanS\\Desktop\\Next-JS projects\\next13-demo-app\\app\\search\\Search.tsx": {
+  "C:\\Users\\BojanS\\Desktop\\Next-JS projects\\next13-demo-app\\app\\(users)\\search\\[searchTerm]\\error.tsx": {
     "": {
-      "id": "(app-client)/./app/search/Search.tsx",
+      "id": "(app-client)/./app/(users)/search/[searchTerm]/error.tsx",
       "name": "",
       "chunks": [
-        "app/search/layout:app/search/layout"
+        "app/(users)/search/[searchTerm]/error:app/(users)/search/[searchTerm]/error"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./app/search/Search.tsx",
+      "id": "(app-client)/./app/(users)/search/[searchTerm]/error.tsx",
       "name": "*",
       "chunks": [
-        "app/search/layout:app/search/layout"
+        "app/(users)/search/[searchTerm]/error:app/(users)/search/[searchTerm]/error"
       ],
       "async": false
     },
     "default": {
-      "id": "(app-client)/./app/search/Search.tsx",
+      "id": "(app-client)/./app/(users)/search/[searchTerm]/error.tsx",
       "name": "default",
       "chunks": [
-        "app/search/layout:app/search/layout"
-      ],
-      "async": false
-    }
-  },
-  "C:\\Users\\BojanS\\Desktop\\Next-JS projects\\next13-demo-app\\app\\search\\[searchTerm]\\error.tsx": {
-    "": {
-      "id": "(app-client)/./app/search/[searchTerm]/error.tsx",
-      "name": "",
-      "chunks": [
-        "app/search/[searchTerm]/error:app/search/[searchTerm]/error"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./app/search/[searchTerm]/error.tsx",
-      "name": "*",
-      "chunks": [
-        "app/search/[searchTerm]/error:app/search/[searchTerm]/error"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./app/search/[searchTerm]/error.tsx",
-      "name": "default",
-      "chunks": [
-        "app/search/[searchTerm]/error:app/search/[searchTerm]/error"
+        "app/(users)/search/[searchTerm]/error:app/(users)/search/[searchTerm]/error"
       ],
       "async": false
     }

@@ -1,9 +1,0 @@
-{
-  "c": [
-    "app/search/[searchTerm]/error",
-    "webpack",
-    "_app-client_styles_globals_css"
-  ],
-  "r": [],
-  "m": []
-}
